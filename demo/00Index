@@ -1,0 +1,16 @@
+acutehiv          A model of HIV infection with acute and chronic infection stages
+hivmodel          A simple model of HIV infection
+hivmodelage       The simple HIV model, with age considered explicitly
+hivmodeldiffrisk  A model of HIV infection with differential contact rates and mixing patterns
+reedfrost         A Reed-Frost chain binomial model
+sirabc            Fitting an SIR model using approximate Bayesian computation (rejection method)
+sircn             An edge-based SIR model on a configuration network
+sirdiscrete       A discrete-time SIR model
+sirforced         An SIR model with seasonal forcing of infection
+sirfunction       An example of how different functions can be used for transmission in an SIR model
+sirode            A susceptible-infected-recovered differential equation model using simecol
+sirpa             A pair approximation for an SIR model on a k-regular network
+sirstochastic     A stochastic SIR model simulated using the SSA algorithm
+siuniformized     Simulation of a stochastic SI model using uniformization
+wnv               A model of West Nile Virus in birds and mosquitoes
+

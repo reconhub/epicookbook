@@ -1,0 +1,15 @@
+citHeader("To cite package `epicookbook' in publications use:")
+     
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version)
+     
+citEntry(entry="Manual",
+  title = "epicookbook: A cookbook of epidemiological models in R",
+  author = personList(as.person("Simon Frost")),
+  year = year,
+  note = vers,
+     
+  textVersion = paste("Simon Frost (",
+    year,
+    "). epicookbook: A cookbook of epidemiological models in R. ",
+     vers, ".", sep=""))

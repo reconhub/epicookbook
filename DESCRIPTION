@@ -1,0 +1,11 @@
+Package: epicookbook
+Type: Package
+Title: A cookbook of 'recipes' for epidemiological modeling in R.
+Version: 0.1
+Date: 2014-01-16
+Author: Simon D.W. Frost
+Maintainer: Simon D.W. Frost <sdwfrost@gmail.com>
+Description: A cookbook of 'recipes' for epidemiological modeling in R.
+License: GPL (>= 2)
+Depends: simecol,GillespieSSA,ggplot2
+
